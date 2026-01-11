@@ -1,0 +1,39 @@
+name: klinik_sehat_bersama
+description: Aplikasi Web Klinik Sehat Bersama
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Supabase untuk Database
+  supabase_flutter: ^2.0.0
+  
+  # Date Formatting (untuk bahasa Indonesia)
+  intl: ^0.19.0
+  
+  # URL Launcher
+  url_launcher: ^6.1.0
+  
+  # Image Picker untuk upload logo
+  image_picker: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets
+  assets:
+    - assets/images/logo.jpeg
+    - assets/images/favicon/
